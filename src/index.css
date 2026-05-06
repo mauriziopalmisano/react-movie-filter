@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+
+.bg-img-main {
+  background-image: url(img/main-bg.png);
+  background-position: top;
+  background-repeat: round;
+  background-size: contain;
+}
+
+.bg-img-header {
+  background-image: url(img/header-bg-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.header-title {
+  color: #000000;
+  text-shadow: 0 0 10px rgba(245, 209, 6, 0.5);
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 58px;
+}
+
+.sections-titles {
+  color: #000000;
+  text-shadow: 0 0 10px rgba(245, 209, 6, 0.5);
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 42px;
+}
+
+.movies-title {
+  color: #000000;
+  text-shadow: 0 0 10px rgba(245, 209, 6, 0.5);
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
+}
+
+.hight-200 {
+  height: 150px;
+}
