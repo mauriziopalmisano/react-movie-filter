@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 
+.border-color{
+  color: #000000;
+  box-shadow: 0 0 10px rgba(245, 209, 6, 0.5);
+}
+
+.btn-color{
+  background: #000000;
+  box-shadow: 0 0 10px rgba(245, 209, 6, 0.5);
+}
+
 
 .bg-img-main {
   background-image: url(img/main-bg.png);
@@ -36,6 +46,15 @@
 
 .movies-title {
   color: #000000;
+  text-shadow: 0 0 10px rgba(245, 209, 6, 0.5);
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
+}
+
+.btn-title {
+  color: #ffffff;
   text-shadow: 0 0 10px rgba(245, 209, 6, 0.5);
   font-family: "Big Shoulders", sans-serif;
   font-weight: 700;

@@ -5,7 +5,7 @@ function Select({
     genreList
 }) {
     return (
-        <select className="form-select" value={value} onChange={onChange} name={name} >
+        <select className="form-select form-select-sm rounded-pill " value={value} onChange={onChange} name={name} >
             <option disabled value=''>Scegli un Genere</option>
             <option value=''>Nessuna preferenza</option>
             {genreList.map(film => {

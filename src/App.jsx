@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react'
-import filmsArray from './data/filmsArray'
-import Main from './components/Main/Main';
-import Header from './components/Header/Header';
+import filmsArray from './data/filmsArray.js'
+import Main from './components/Main/Main.jsx';
+import Header from './components/Header/Header.jsx';
 
+const genreList = filmsArray
+  .filter((film, index, selfArray) => index === selfArray
+    .findIndex(element => element.genre === film.genre));
 
 function App() {
   const emptyfilmOBJ = { title: '', genre: '' };
@@ -15,13 +18,10 @@ function App() {
 
 
 
-  const genreList = filmsList
-    .filter((film, index, selfArray) => index === selfArray
-      .findIndex(element => element.genre === film.genre));
 
   const changeHandler = (event) => {
     const target = event.target;
-    const targetValue = target.value;
+    const targetValue = target.value; 
     const targetName = target.name;
     if (targetName === 'genre') {
       setSelectedGenre(targetValue);
